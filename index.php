@@ -1,3 +1,8 @@
+<?php
+$title = "Home";
+$bodyClass = "home";
+?>
+
 <?php include("_layouts/default-head.php"); ?>
 
 <div id="container">

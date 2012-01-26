@@ -8,7 +8,7 @@
 <meta charset="utf-8" />
 <!-- Use the .htaccess from HTML5BP and remove the next line to avoid edge case issues. More info: h5bp.com/b/378 -->
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-<title>Title</title>
+<title>PHP Prototyping Kit | <?php echo $title; ?></title>
 <meta name="description" content="" />
 <meta name="author" content="" />
 <meta name="keywords" content="" />
@@ -20,4 +20,4 @@
 <script src="javascripts/modernizr-2.0.6.min.js"></script>
 <!-- Put TypeKit javascript here if you're using it, otherwise delete this line -->
 </head>
-<body>
+<body class="<?php echo $bodyClass; ?>">

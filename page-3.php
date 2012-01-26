@@ -1,3 +1,8 @@
+<?php
+$title = "Page 3";
+$bodyClass = "page-3";
+?>
+
 <?php include("_layouts/default-head.php"); ?>
 
 <div id="container">

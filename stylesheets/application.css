@@ -2666,9 +2666,9 @@ nav {
       *vertical-align: auto;
       padding: 40px; }
 
-body.home li.home,
-body.page-2 li.page-2,
-body.page-3 li.page-3 {
+body.home a.home,
+body.page-2 a.page-2,
+body.page-3 a.page-3 {
   text-decoration: underline; }
 
 /* Suggested starting point for your mobile styles ==== */
