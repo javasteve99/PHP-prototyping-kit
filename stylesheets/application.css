@@ -2646,7 +2646,31 @@ button.btn::-moz-focus-inner, input[type=submit].btn::-moz-focus-inner {
   zoom: 1; }
 
 /* Suggested starter stylesheets for your work */
-/* Suggested starting point for your screen styles ==== */
+div#container {
+  margin: 0 auto;
+  max-width: 960px; }
+
+nav {
+  margin-bottom: 60px;
+  text-align: center; }
+  nav ul {
+    list-style-type: none;
+    margin: 0; }
+    nav ul li {
+      display: -moz-inline-box;
+      -moz-box-orient: vertical;
+      display: inline-block;
+      vertical-align: baseline;
+      zoom: 1;
+      *display: inline;
+      *vertical-align: auto;
+      padding: 40px; }
+
+body.home li.home,
+body.page-2 li.page-2,
+body.page-3 li.page-3 {
+  text-decoration: underline; }
+
 /* Suggested starting point for your mobile styles ==== */
 /* Basic print styles from HTML5 Boilerplate - http://html5boilerplate.com/ */
 /* ========== Print styles. Inlined to avoid required HTTP connection: www.phpied.com/delay-loading-your-print-css/ ========== */

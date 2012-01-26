@@ -1,3 +1,25 @@
-/* Suggested starting point for your screen styles ==== */
+div#container {
+  margin: 0 auto;
+  max-width: 960px;
+}
 
+nav {
+  margin-bottom: 60px;
+  text-align: center;
 
+  ul {
+    list-style-type: none;
+    margin: 0;
+
+    li {
+      @include inline-block();
+      padding: 40px;
+    }
+  }
+}
+
+body.home li.home,
+body.page-2 li.page-2,
+body.page-3 li.page-3 {
+  text-decoration: underline;
+}
