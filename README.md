@@ -1,5 +1,5 @@
-PHP Prototyping Kit
-===================
+PHP Prototyping Kit (PPK)
+=========================
 A DRY framework for website and application prototype development. It's built using PHP includes so you can avoid repeating the same code in multiple places. It uses HTML5 Boilerplate code for the PHP equivalents of its HTML files, and includes Bootstrap CSS and JS. It also has Sass and Bourbon to facilitate easy and rapid development. This is not intended to be used for production sites in its default format. It pulls in a LOT of CSS and JS and is full of slightly-more-than-necessary comments. If you wish to use it for production sites, you should delete unused styles and javascript and erase any comments that seem obvious to you.
 
 Running Apache and PHP locally
